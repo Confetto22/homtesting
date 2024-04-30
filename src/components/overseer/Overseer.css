@@ -1,0 +1,51 @@
+.overseer{
+    padding: 3rem 1rem;
+    font-family: "Agbalumo";
+    background-image: url("../../assets/images/bg3.png");
+    /* object-fit: cover;
+    object-position: center; */
+}
+.overseer_heading{
+    text-align: center;
+    color: #013a28;
+    margin-bottom: 2rem;
+    font-size: 1.9rem;
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+
+.pastorPic{
+    width: 90%;
+}
+.namepic{
+    position: relative;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+}
+.PastorName{
+    position: absolute;
+    background-color: #013a28;
+    color: gold;
+    letter-spacing: 1px;
+    font-size: large;
+    bottom: 0;
+    left: 0;
+    padding: .4rem 1rem;
+    font-weight: 400;
+}
+.welcome_text{
+    font-family: "Poppins", sans-serif;
+    
+}
+.welcome_heading{
+    margin-top: 2rem;
+    font-weight: 700;
+}
+.welcome_content{
+    border-left: 3px solid gold;
+    padding-left: 1.5rem;
+    margin-top: 1rem;
+    color: #1c1c1c;
+    font-weight: 400;
+}

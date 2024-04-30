@@ -1,0 +1,39 @@
+.hero{
+    position: relative;
+    height: 100dvh;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: "Agbalumo";
+}
+.heroBg{
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+    /* height: 100dvh; */
+    height: 100%;
+    top: 0;
+    z-index: -1;
+}
+.hero_content{
+    
+}
+.hero_heading{
+    font-weight: 800;
+    /* color: rgb(90, 240, 240); */
+    color: rgb(162, 84, 235);
+    letter-spacing: 4px;
+    font-size: 8vw;
+    text-align: center;
+    margin-top: 8rem;
+}
+.firstLetter{
+    color: gold;
+}
+#auto_type{
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 1rem;
+    padding: .4rem;
+    letter-spacing: 3px;
+    text-align: center;
+}

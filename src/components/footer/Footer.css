@@ -1,0 +1,96 @@
+footer{
+    background-color: #013a28;
+    padding: 3rem 1rem;
+    font-size: 1.3rem;
+}
+.footer_intro{
+    font-family: "Agbalumo", sans-serif;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+.visitBt{
+    border: none;
+    border-radius: .3rem;
+    color: #013a28;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    padding: .6rem 1.5rem;
+    margin-top: 1rem;
+    transition:.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+    background-color: gold;
+
+}
+.visitBt:hover{
+    background-color: rebeccapurple;
+    color: gold;
+    /* color: blue; */
+}
+.footer_division1{
+    margin: 2rem 0;
+}
+.follow_intro{
+        font-family: "Agbalumo", sans-serif;
+            color: #fff;
+            letter-spacing: 2px;
+            font-weight: 100;
+            font-size: 1.3rem;
+}
+.follow_text{
+    margin-top: .7rem;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 200;
+}
+.socials{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: .8rem;
+    padding-left: .4rem;
+}
+.socials i{
+    background-color: #aaa;
+    color: #090452;
+    width: 20px;
+    height: 20px;
+    padding: .6rem ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: .3s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+.socials i:hover{
+    background-color: #090452;
+    transform: translateY(-6px);
+    color: #aaa;
+}
+.mail_intro {
+    font-family: "Agbalumo", sans-serif;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 100;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+.footer_mail a{
+    text-decoration: none;
+    color: #1c1c1c;
+    background-color: #fff;
+    /* margin-top: 3rem; */
+    padding: .6rem .8rem;
+    border-radius: .3rem;
+    background-color: gold;
+    color: #013a28;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: .3s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+.footer_mail a:hover{
+    background-color: rebeccapurple;
+        color: gold;
+}

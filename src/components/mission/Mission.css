@@ -1,0 +1,35 @@
+.mission{
+    /* height: 90vh; */
+    padding: 3rem 1rem;
+    background-image: url("../../assets/images/bg3.png");
+    background-position: bottom;
+    
+}
+.mission_vision{
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+}
+.mission_heading{
+    text-align: center;
+    font-family: "Agbalumo", sans-serif;
+    letter-spacing: 2px;
+    font-size: 1.8rem;
+    text-decoration: underline 4px;
+
+}
+.mission_text{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: right;
+    border-right: 3px solid gold;
+    padding-right: 1.7rem;
+    color: #1c1c1c;
+    font-weight: 400;
+}
+.mission_text p{
+    line-height: 1.9rem;
+}
